@@ -1,6 +1,6 @@
 {
-    "name": "astrotomic/laravel-translatable",
-    "description": "A Laravel package for multilingual models",
+    "name": "astrotomic/laravel-translatable-12",
+    "description": "A Laravel package for multilingual models upgrade by phpanonymous",
     "license": "MIT",
     "keywords": [
         "laravel",
@@ -20,6 +20,12 @@
             "email": "ds@dimsav.com",
             "homepage": "http://dimsav.com",
             "role": "Developer"
+        },
+        {
+            "name": "Mahmoud Ibrahim",
+            "email": "php.anonymou1@gmail.com",
+            "homepage": "http://phpdash.com",
+            "role": "Developer"
         }
     ],
     "homepage": "https://astrotomic.info",
@@ -30,18 +36,19 @@
         "docs": "https://docs.astrotomic.info/laravel-translatable"
     },
     "require": {
-        "php": "^8.0",
-        "illuminate/contracts": "^9.0 || ^10.0 || ^11.0",
-        "illuminate/database": "^9.0 || ^10.0 || ^11.0",
-        "illuminate/support": "^9.0 || ^10.0 || ^11.0"
+        "php": "^8.2",
+        "illuminate/contracts": "^9.0 || ^10.0 || ^11.0 || ^12.0",
+        "illuminate/database": "^9.0 || ^10.0 || ^11.0 || ^12.0",
+        "illuminate/support": "^9.0 || ^10.0 || ^11.0 || ^12.0"
     },
     "require-dev": {
-        "larastan/larastan": "^2.0",
-        "laravel/legacy-factories": "^1.0.4",
+        "larastan/larastan": "^2.9",
         "laravel/pint": "^1.0",
-        "mockery/mockery": "^1.3.3",
-        "orchestra/testbench": "^7.0 || ^8.0 || ^9.0",
-        "phpunit/phpunit": "^10.0"
+        "laravel/sail": "^1.18",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^7.0",
+        "pestphp/pest": "^2.36",
+        "spatie/laravel-ignition": "^2.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
